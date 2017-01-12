@@ -62,7 +62,7 @@ class Container
 }
 
 
-class Logauth extends Container
+class Logcheck extends Container
 {
 	
 	function __construct(){
@@ -88,7 +88,7 @@ class Logauth extends Container
 		}
 	}
 
-	function logauth(){
+	function logcheck(){
 
 		$url = $this->domain . $this->authUrl . "/" . $this->device_num . "?username=" . $this->username;
 		
